@@ -69,4 +69,4 @@ var zs = new ZanShang();
 // 加载赞赏列表
 const app = getQueryVariable(location.href, 'app');
 $('.app-name').text(app);
-$('#rewardList').attr('src', `list.html?app=${app}`);
+$('#rewardList').attr('src', `list.html?app=${app}&t=${new Date().getTime()}`);

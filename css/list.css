@@ -28,16 +28,18 @@ th, td {
 
 td {
   border-bottom: 1px solid rgba(3, 169, 244);
+  box-sizing: border-box;
 }
 
 td:nth-child(1) {
+  /* 只是最少宽度，内容多的话会自动撑开 */
   width: 80px;
 }
 td:nth-child(2) {
-  width: 100px;
+  width: 80px;
 }
 td:nth-child(3) {
-  width: 80px;
+  width: 50px;
 }
 
 .remark {
