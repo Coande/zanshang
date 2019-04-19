@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-size: 14px;
+}
+
+.reward-list {
+  width: 100%;
+  color: #555;
+}
+
+thead {
+  background: rgba(3, 169, 244);
+  color: #ffffff;
+}
+
+tr {
+  min-height: 36px;
+}
+
+th {
+  text-align: left;
+}
+
+
+th, td {
+  padding: 4px 10px;
+}
+
+td {
+  border-bottom: 1px solid rgba(3, 169, 244);
+}
+
+td:nth-child(1) {
+  width: 80px;
+}
+td:nth-child(2) {
+  width: 100px;
+}
+td:nth-child(3) {
+  width: 80px;
+}
+
+.remark {
+  color: #888888;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
