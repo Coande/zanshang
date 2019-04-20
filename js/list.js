@@ -19,5 +19,5 @@ fetch(`js/data.json?t=${new Date().getTime()}`)
     }
 
     // 发送一个高度通知iframe调用该页面的父页面
-    window.parent.postMessage({ iframeHeight: $(document).height() }, '*');
+    window.parent.postMessage({ iframeHeight: $(document.body).height() }, '*');
   });
